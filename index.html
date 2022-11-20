@@ -14,29 +14,45 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/0330d951b4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="wrapper">
       <nav class="cake-nav">
-        <ul>
-          <li>Store</li>
-          <li>Adress</li>
-          <li>About us</li>
-          <li>Contact</li>
+         <img id="btnOpen" src="./img/icons8-menu-rounded-30.png" alt="hamburger icon">
+        <ul class="cake-ul">
+          <li><a class="nav-link" href="#products">Store</a></li>
+          <li> <a class="nav-link"  href="#contact">Adress</a> </li>
+          <li> <a class="nav-link"  href="#about">About us</a> </li>
+          <li><a  href="#contact">Contact</a></li>
         </ul>
+        <article class="slideInMenu"> 
+          <img id="btnClose" src="./img/icons8-close-32.png" alt="">
+          <ul class="slideUl">
+            <li><a class="nav-link" href="#products">Store</a></li>
+            <li> <a class="nav-link"  href="#contact">Adress</a> </li>
+            <li> <a class="nav-link"  href="#about">About us</a> </li>
+            <li><a  href="#contact">Contact</a></li>
+          </ul>
+        </article>
       </nav>
+     
+     
       <header class="cake-header">
         <div class="picture-container"></div>
         <div class="logo-container">
-          <img class="cake-logo" src="./logo.png" alt="logo" />
+          <img class="cake-logo" src="./img/logo.png" alt="logo" />
           <h1>Welcome to Munamii Cakery</h1>
           <button class="cake-button">Buy now</button>
         </div>
       </header>
       <main class="cake-main">
-        <section class="about">
+        <section id="about" name="about" class="about">
           <div class="about-content-box">
-            <h1>About Munamii cakery</h1>
+            <h1 class="big-title">About Munamii cakery</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis quisquam, similique nobis sit rerum hic? Unde veritatis
@@ -51,7 +67,7 @@
             <h2>Our employees</h2>
             <article class="employee-box">
               <img
-                src="./Book-tyson-articleLarge.webp"
+                src="./img/Book-tyson-articleLarge.webp"
                 alt="employee-picture"
               />
               <p>Mike Tyson</p>
@@ -62,120 +78,170 @@
           </div>
         </section>
 
-        <section class="products">
-          <h2>Our products</h2>
+        <section id="products" class="products">
+          <h1 class="big-title">Our products</h1>
           <div class="product-container">
-            <div class="cupcake-container">
+            <h2>Our cupcakes</h2>
+            <div class="grid-container">
               <article class="card">
-                <img src="" alt="" />
-                <h3>Cupcake</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi, quibusdam?
-                </p>
-                <button>Buy now</button>
-              </article>
-              <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img
+                    class="cupcake-pic"
+                    src="./img/Vanilla-Cupcakes-3.jpg"
+                    alt=""
+                  />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img
+                    class="cupcake-pic"
+                    src="./img/Vanilla-Cupcakes-3.jpg"
+                    alt=""
+                  />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img
+                    class="cupcake-pic"
+                    src="./img/Vanilla-Cupcakes-3.jpg"
+                    alt=""
+                  />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img
+                    class="cupcake-pic"
+                    src="./img/Vanilla-Cupcakes-3.jpg"
+                    alt=""
+                  />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img
+                    class="cupcake-pic"
+                    src="./img/Vanilla-Cupcakes-3.jpg"
+                    alt=""
+                  />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img
+                    class="cupcake-pic"
+                    src="./img/Vanilla-Cupcakes-3.jpg"
+                    alt=""
+                  />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img
+                    class="cupcake-pic"
+                    src="./img/Vanilla-Cupcakes-3.jpg"
+                    alt=""
+                  />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img
+                    class="cupcake-pic"
+                    src="./img/Vanilla-Cupcakes-3.jpg"
+                    alt=""
+                  />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
             </div>
-            <div class="cake-container">
-              <h4>Our wedding cakes</h4>
+            <h2>Our cakes</h2>
+            <div class="grid-container">
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img class="cupcake-pic" src="./img/whiskey-cake.png" alt="" />
+                </div>
                 <h3>Cake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img class="cupcake-pic" src="./img/grinch-cake.jpg" alt="" />
+                </div>
                 <h3>Cake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img class="cupcake-pic" src="./img/cat-cake.png" alt="" />
+                </div>
                 <h3>Cake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img class="cupcake-pic" src="./img/choc-cake.jpg" alt="" />
+                </div>
                 <h3>Cake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img class="cupcake-pic" src="./img/flower cake.png" alt="" />
+                </div>
                 <h3>Cake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img class="cupcake-pic" src="./img/redcake.jpg" alt="" />
+                </div>
                 <h3>Cupcake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img class="cupcake-pic" src="./img/cookie.png" alt="" />
+                </div>
                 <h3>Cake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
               </article>
               <article class="card">
-                <img src="#" alt="" />
-                <h3>Cake</h3>
-                <p>25$</p>
-                <button>Buy now</button>
-              </article>
-              <article class="card">
-                <img src="#" alt="" />
+                <div class="img-container">
+                  <img class="cupcake-pic" src="./img/pink-cake.png" alt="" />
+                </div>
                 <h3>Cake</h3>
                 <p>25$</p>
                 <button>Buy now</button>
@@ -183,13 +249,16 @@
             </div>
           </div>
         </section>
-        <section class="contact">
-          <h2>Contact</h2>
+        <sectionid id="contact" class="contact">
+          <h1 >Contact</h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
             assumenda nostrum ratione, neque quos nesciunt ex illo. Asperiores
             commodi tempora sapiente minus eius eligendi reiciendis, veniam est
-            cupiditate enim eos.
+            cupiditate enim eos. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sed ex ullam repellat libero ab, dolor qui! Dolor
+            neque ipsum veritatis dolores minima eos tempore provident optio,
+            voluptas fugit beatae magni!
           </p>
           <table>
             <thead>
@@ -197,47 +266,55 @@
             </thead>
             <tbody>
               <tr>
-                <td>Monday</td>
+                <td>Monday:</td>
                 <td>12-18</td>
               </tr>
               <tr>
-                <td>Tuesday</td>
+                <td>Tuesday:</td>
                 <td>12-18</td>
               </tr>
               <tr>
-                <td>Wednesday</td>
+                <td>Wednesday:</td>
                 <td>12-17</td>
               </tr>
               <tr>
-                <td>Thursday</td>
+                <td>Thursday:</td>
                 <td>12-17</td>
               </tr>
               <tr>
-                <td>Friday</td>
+                <td>Friday:</td>
                 <td>12-15</td>
               </tr>
               <tr>
-                <td>Saturday & Sunday</td>
+                <td>Saturday & Sunday:</td>
                 <td>Closed</td>
               </tr>
             </tbody>
           </table>
+
           <div class="social-media-container">
-            <p>You can also reach us on social media</p>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Whatsapp</a>
+            <h4>Our contact information</h4>
+            
+              <p><i class="fa-solid fa-phone"></i> 07418841</p>
+              <p><i class="fa-solid fa-envelope"></i> munamiicakes@gmail.com</p>
+           
           </div>
         </section>
       </main>
       <footer class="cake-footer">
-        <img src="./logo.png" alt="" />
+        <article class="social-links">
+          <a class="facebok" href="#"> <i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a class="instagram" href="#"> <i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+        </article>
         <div class="footer-content-box">
-          <a href="">Link</a><a href="">Link</a><a href="">Link</a>
-
-          <p>&copy; Munamii Cake Store</p>
+          <a href="#">Terms of service</a><a href="#">Allergies</a
+          ><a href="#">Work with us</a>
         </div>
+        <p>&copy; Munamii Cake Store</p>
+        <!-- <img class="foot-logo" src="./logo.png" alt="" /> -->
       </footer>
     </div>
+    <script  src="./slide.js"></script>
   </body>
 </html>
